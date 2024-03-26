@@ -35,7 +35,7 @@ pour plus d'informations reportez-vous sur docker build [docker Pages](https://d
 > pour plus d'informations reportez-vous [wikipedia Pages](https://fr.wikipedia.org/wiki/Variable_d%27environnement).
 
 ```docker
-docker run --name dockej -p 8080:80 --mount type=bind,source="$(pwd)"/www,target=/www dockej
+docker run --name dockerj2 -p 8080:80 --mount type=bind,source="$(pwd)"/www,target=/www dockerj2
 ```
 
 pour plus d'information sur docker run [docker Pages](https://docs.docker.com/storage/bind-mounts/).
